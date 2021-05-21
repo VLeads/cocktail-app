@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
 /* 
 ====== 
@@ -135,7 +136,7 @@ Navbar
 */
 .navbar {
   background: var(--mainWhite);
-  height: 5.6rem;
+  height: 6rem;
   display: flex;
   align-items: center;
   border-bottom: 2px solid var(--primaryColor);
@@ -148,6 +149,13 @@ Navbar
   width: var(--smallWidth);
   margin: 0 auto;
   max-width: var(--fullWidth);
+}
+.navbar .nav-center  h1 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-family: 'Calligraffitti', cursive;
+  font-size: 2rem;
 }
 .nav-links {
   display: flex;

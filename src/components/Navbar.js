@@ -9,6 +9,7 @@ function Navbar() {
                  <Link to="/">
                      <img src={logo} alt="cocktail db logo" className="logo"></img>
                  </Link>
+                 <span><h1>Last Shot 🍺</h1></span>
                  <ul className="nav-links">
                      <li><Link to="/">
                          Home
